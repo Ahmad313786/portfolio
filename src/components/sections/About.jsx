@@ -2,15 +2,15 @@ import React from 'react'
 import RevealOnScroll from '../RevealOnScroll'
 
 const About = () => {
-  const frontendSkills = ["React","Vue","TailwindCSS", "TypeScript"]
-  const backendSkills = ["Node.js","ExpressJS","MongoDB", "Python"]
+  const frontendSkills = ["HTML","CSS","TailwindCSS", "Javascript","React"]
+  const backendSkills = ["Node.js","ExpressJS","MongoDB"]
   return (
     <div id='about' className='min-h-screen flex items-center justify-center py-20' >
       <RevealOnScroll>
       <div className='max-w-3xl mx-auto px-4' >
         <h2 className='text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center' >About Me</h2>
         <div className='rounded-xl p-8 border border-white/10 hover:-translate-y-1 transition-all' >
-          <p className='text-gray-300 mb-6' >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum commodi delectus accusantium sit?</p>
+          <p className='text-gray-300 mb-6' >Passionate MERN Stack Developer building responsive, scalable web applications with clean, efficient code.</p>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6' >
             <div className='rounded p-6 hover:-translate-y-1 transition-all' >
               <h3 className='text-xl mb-4 font-bold' > Frontend</h3>
